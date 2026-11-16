@@ -1,0 +1,17 @@
+# Previous assignment (kept locally, not tracked)
+Assignment 1/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Course-provided raw data (not redistributed)
+data/
+
+# Report (kept local)
+*.docx
