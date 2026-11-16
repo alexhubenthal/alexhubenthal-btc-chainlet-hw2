@@ -1,8 +1,8 @@
-# Bitcoin Price Prediction from Chainlets, Explained with SHAP
+# Predicting December 2017 Bitcoin Prices from Chainlets
 
-Predicts the daily Bitcoin price for every day of December 2017 (one-day-ahead horizon) from lagged prices and Bitcoin transaction-graph chainlet features, using both the occurrence and the amount chainlet files. The model is explained with SHAP.
+A ridge regression predicts the Bitcoin price one day ahead for each day in December 2017, from past prices and the daily chainlet counts and amounts. Both course chainlet files are used. SHAP shows what pushed each prediction up or down.
 
-UCF, Master's in Financial Technology, CAP 5619 homework.
+Homework for CAP 5619, AI for Finance, in the UCF Master's in Financial Technology program.
 
 ## Data
 
@@ -13,6 +13,8 @@ The three course files (`OccChainletsInTime.txt`, `AmoChainletsInTime.txt`, `pri
 1. Use Python 3.9 or newer, ideally in a virtual environment.
 2. `pip install -r requirements.txt`. The first notebook cell also installs anything that is missing.
 3. Open `btc_chainlet_xai.ipynb` and run all cells.
+
+The notebook gives the same predictions on Python 3.9 with pandas 2.2 and on Python 3.13 with pandas 3.1.
 
 ## Output
 
